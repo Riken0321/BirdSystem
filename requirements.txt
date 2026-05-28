@@ -1,0 +1,12 @@
+fastapi
+tortoise-orm
+aiomysql
+python-jose
+passlib
+bcrypt
+tomlkit
+aerich
+pydantic-settings
+minio
+python-multipart
+uvicorn

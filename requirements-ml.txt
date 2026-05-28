@@ -1,0 +1,4 @@
+# ML / training dependencies (install separately from requirements.txt)
+ultralytics>=8.0.0
+torch
+opencv-python

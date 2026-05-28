@@ -1,0 +1,50 @@
+# Environment & secrets
+.env
+.env.local
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+backend/venv/
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# ML artifacts (large)
+runs/
+*.pt
+*.pth
+*.onnx
+*.weights
+
+# Logs & local data
+*.log
+backend/logs/
+save/
+
+# Node / frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Local media & outputs
+videos/
+output_frames/
+
+# IDE & OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Test outputs
+runs/detect/predict/
